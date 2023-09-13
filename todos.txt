@@ -1,7 +1,5 @@
 new_test
-new
+newest
 todoss
 the newest one
-new_new
-newww
 new_todo
