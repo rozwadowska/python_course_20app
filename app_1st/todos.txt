@@ -5,7 +5,7 @@ the newest one
 new_todo
 Take a shower
 Make some noice
-
+learn python
 to be
 or not to be
 that is the question
