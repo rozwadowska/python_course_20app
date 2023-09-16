@@ -1,4 +1,4 @@
-import functions
+from App_1st import functions
 import PySimpleGUI as sg
 
 label = sg.Text("Type in a to-do")
