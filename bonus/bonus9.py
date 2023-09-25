@@ -1,26 +1,29 @@
 password = input("Enter new password: ")
-result = []
+result = {}
 
 if len(password) >= 8:
-    result.append(True)
+    result["length"] = True
 else:
-    result.append(False)
+    result["length"] = False
 
 digit = False
 for i in password:
     if i.isdigit():
         digit = True
 
-result.append(digit)
+result["digits"] = digit
 
 uppercase = False
 for i in password:
     if i.isupper():
         uppercase = True
 
-result.append(uppercase)
+result["upper_case"] = uppercase
 
-if all(result):
+# print(result)
+# print(result.values())
+
+if all(result.values()):
     print("Strong password.")
 else:
     print("Weak password.")
